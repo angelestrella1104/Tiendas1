@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#B5BA66"
+    android:backgroundTint="#5D7ED3"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pista_del_nombre_de_la_tienda"
+        android:textAppearance="?attr/textAppearanceHeadline5" />
+
+    <EditText
+        android:id="@+id/Nombre_de_la_tienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nombre_de_la_tienda"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="#DD0928"
+        android:textColorLink="#BA1E1E"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pista_del_numero_de_la_tienda"
+        android:textAppearance="?attr/textAppearanceHeadline5" />
+
+    <EditText
+        android:id="@+id/Numero_de_la_tienda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/Numero_de_la_tienda"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#BF0B0B"
+        android:textColorHighlight="#D33030"
+        android:textColorHint="#E31111"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
